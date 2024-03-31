@@ -1,0 +1,53 @@
+
+POST
+http://localhost:8080/Spring-Data-Employees/api/v1/employees
+
+{
+	"firstName": "Erik",
+	"lastName": "Roberts",
+	"jobTitle": "Actor",
+	"phone": "566-777-333"
+}
+
+{
+	"firstName": "Steven",
+	"lastName": "Spielberg",
+	"jobTitle": "Director",
+	"phone": "001-366-555"
+}
+
+{
+	"firstName": "Tom",
+	"lastName": "Cruse",
+	"jobTitle": "Actor",
+	"phone": "266-177-112"
+}
+
+{
+	"firstName": "Kurt",
+	"lastName": "Russel",
+	"jobTitle": "Actor",
+	"phone": "266-177-112"
+}
+______________________________________
+
+GET
+http://localhost:8080/Spring-Data-Employees/api/v1/employees/2
+
+
+______________________________________
+PUT
+http://localhost:8080/api/v1/users/1
+
+
+{
+    "firstName": "Erik",
+	"lastName": "Roberts",
+	"jobTitle": "Producer",
+	"phone": "566-777-001"
+}
+
+______________________________________
+DELETE
+http://localhost:8080/Spring-Data-Employees/api/v1/employees/3
+
