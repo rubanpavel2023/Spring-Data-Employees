@@ -10,4 +10,5 @@ CREATE TABLE IF NOT EXISTS employees
     PRIMARY KEY (id)
     );
 
+
 SELECT first_name, last_name, job_title, phone FROM employees;

@@ -60,5 +60,6 @@ public class EmployeesContext {
         txManager.setEntityManagerFactory(entityManagerFactory().getObject());
         return txManager;
     }
+
 }
 

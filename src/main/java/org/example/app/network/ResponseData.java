@@ -11,4 +11,5 @@ public class ResponseData {
     private String status;
     private boolean success;
     private Object data;
+
 }

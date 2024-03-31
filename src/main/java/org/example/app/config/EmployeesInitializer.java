@@ -22,4 +22,5 @@ public class EmployeesInitializer extends AbstractAnnotationConfigDispatcherServ
     protected String[] getServletMappings() {
         return new String[]{"/"};
     }
+
 }
